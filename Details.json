@@ -1,0 +1,31 @@
+{
+  "movies": [
+    {
+      "id": "1",
+      "Title": "RRR",
+      "Director": "S.S. Rajamouli",
+      "Genre": "Action, Adventure, Drama",
+      "Released": "25 Mar 2022",
+      "imdbRating": "7.8",
+      "Plot": "A fearless warrior on a perilous mission comes face to face with a steely cop serving British forces in this epic saga set in pre-independent India.",
+      "Poster": "https://m.media-amazon.com/images/M/MV5BODUwNDNjYzctODUxNy00ZTA2LWIyYTEtMDc5Y2E5ZjBmNTMzXkEyXkFqcGdeQXVyODE5NzE3OTE@._V1_SX300.jpg",
+      "Actors": "N.T. Rama Rao Jr., Ram Charan, Alia Bhatt",
+      "Awards": "N/A",
+      "Runtime": "187 min"
+    },
+    {
+      "id": "2",
+      "Title": "Inception",
+      "Director": "Christopher Nolan",
+      "Genre": "Action, Adventure, Sci-Fi",
+      "Released": "16 Jul 2010",
+      "imdbRating": "8.8",
+      "Plot": "A thief who steals corporate secrets through the use of dream-sharing technology is given the inverse task of planting an idea into the mind of a CEO.",
+      "Poster": "https://m.media-amazon.com/images/I/51EB7OVWBFL._AC_.jpg",
+      "Actors": "Leonardo DiCaprio, Joseph Gordon-Levitt, Ellen Page",
+      "Awards": "Oscar, BAFTA, Golden Globe",
+      "Runtime": "148 min"
+    }
+    
+  ]
+}

@@ -1,0 +1,126 @@
+.playlist-page {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 20px;
+  background-color: var(--background-color);
+  color: var(--text-color);
+  min-height: 100vh;
+}
+
+.playlist-page h2 {
+  margin-bottom: 40px;
+}
+
+.search-input {
+  margin-bottom: 40px;
+  padding: 15px 20px;
+  border-radius: 25px;
+  border: 1px solid #ddd;
+  width: 80%;
+  max-width: 600px;
+  font-size: 16px;
+}
+
+.search-input:focus {
+  outline: none;
+  border-color: #aaa;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.2);
+}
+
+.playlist-section {
+  width: 100%;
+  max-width: 1200px;
+  margin: 20px 0;
+}
+
+.playlist-cards {
+  display: flex;
+  overflow-x: auto;
+  gap: 10px;
+  padding-bottom: 10px;
+  scrollbar-width: thin;
+  scrollbar-color: var(--scrollbar-thumb-color) var(--scrollbar-track-color);
+}
+
+.playlist-cards::-webkit-scrollbar {
+  height: 8px;
+}
+
+.playlist-cards::-webkit-scrollbar-thumb {
+  background: var(--scrollbar-thumb-color);
+  border-radius: 4px;
+}
+
+.playlist-cards::-webkit-scrollbar-track {
+  background: var(--scrollbar-track-color);
+}
+
+.card {
+  flex: 0 0 auto;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  overflow: hidden;
+  width: 200px;
+  text-align: center;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  transition: transform 0.3s;
+}
+
+.card:hover {
+  transform: scale(1.05);
+}
+
+.card img {
+  width: 100%;
+  height: auto;
+}
+
+.card h3 {
+  margin: 10px 0;
+  font-size: 1.2em;
+}
+
+.card p {
+  color: #555;
+}
+
+.light .playlist-page {
+  --background-color: #f5f5f5;
+  --text-color: #333;
+  --scrollbar-thumb-color: #888;
+  --scrollbar-track-color: #f5f5f5;
+}
+
+.dark .playlist-page {
+  --background-color: #333;
+  --text-color: #f5f5f5;
+  --scrollbar-thumb-color: #555;
+  --scrollbar-track-color: #444;
+}
+
+.light .card {
+  background-color: #fff;
+  color: #333;
+}
+
+.dark .card {
+  background-color: #444;
+  color: #fff;
+}
+
+.light .card:hover {
+  background-color: #f0f0f0;
+}
+
+.dark .card:hover {
+  background-color: #555;
+}
+
+.light .card img {
+  border: 1px solid #ddd;
+}
+
+.dark .card img {
+  border: 1px solid #555;
+}

@@ -1,0 +1,152 @@
+*, *::before, *::after {
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #f5f5f5;
+  color: #000;
+  margin: 0;
+  padding: 0;
+  height: 100%;
+  overflow-x: hidden;
+}
+
+html {
+  height: 100%;
+}
+
+.register-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  align-items: center;
+  min-height: 100vh;
+  margin-top: auto;
+  margin-bottom: 100px;
+  padding: 20px;
+  overflow: hidden;
+  background-color: inherit;
+}
+
+.register-card {
+  width: 400px;
+  padding: 15px;
+  border: 1px solid #ccc;
+  border-radius: 10px;
+  background-color: #f9f9f9;
+  margin-top: 100px;
+}
+
+.form-control {
+  width: 100%;
+  padding: 8px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  margin-top: 5px;
+}
+
+.register-footer button,
+.register-footer .btn {
+  margin-right: 10px;
+  border-radius: 4px;
+}
+
+.register-card.light {
+  background-color: #fff;
+  color: #000;
+}
+
+.register-card.dark {
+  background-color: #444;
+  color: #fff;
+}
+
+.register-header h2 {
+  color: inherit;
+  margin-bottom: 20px;
+}
+
+.register-header.light h2 {
+  color: #000;
+}
+
+.register-header.dark h2 {
+  color: #fff;
+}
+
+.register-body {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.form-group {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  width: 100%;
+  margin-bottom: 15px;
+}
+
+.column {
+  flex: 1;
+  width: calc(50% - 5px);
+}
+
+.form-control {
+  width: 100%;
+  padding: 8px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  margin-top: 5px;
+}
+
+.name-field .form-control {
+  color: #000;
+}
+
+.register-footer {
+  margin-top: 20px;
+  text-align: center;
+}
+
+.register-footer button,
+.register-footer .btn {
+  margin-right: 10px;
+}
+
+.errmsg {
+  color: red;
+}
+
+.register-container.light {
+  background-color: #f5f5f5;
+  color: #000;
+}
+
+.register-container.dark {
+  background-color: #333;
+  color: #333;
+}
+
+::-webkit-scrollbar {
+  width: 10px;
+}
+
+::-webkit-scrollbar-thumb {
+  background: #888;
+  border-radius: 10px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: #555;
+}
+
+.Toastify__toast-container--right {
+  position: fixed;
+  right: 0;
+  top: 20%;
+  transform: translateY(-20%);
+  z-index: 9999;
+}
